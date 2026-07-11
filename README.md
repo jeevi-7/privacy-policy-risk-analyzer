@@ -152,4 +152,4 @@ https://github.com/jeevi-7
 
 **Current Version:** 1.0
 
-**Status:** 🚧 Under Development
+**Status:**  Under Development
