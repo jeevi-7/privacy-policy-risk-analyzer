@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Upload Privacy Policy PDF</title>
+</head>
+<body>
+
+<h2>Upload Privacy Policy PDF</h2>
+
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" accept=".pdf" required>
+    <button type="submit">Upload PDF</button>
+</form>
+
+</body>
+</html>

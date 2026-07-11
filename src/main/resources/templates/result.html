@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Privacy Risk Analysis Result</title>
+</head>
+<body>
+
+<h1>Privacy Risk Analysis</h1>
+
+<p><b th:text="${message}"></b></p>
+
+<h2>AI Analysis:</h2>
+<pre th:text="${analysisResult}"></pre>
+
+<h2>Extracted PDF Text:</h2>
+<pre th:text="${extractedText}"></pre>
+
+<br>
+<a href="/upload">Upload Another PDF</a>
+
+</body>
+</html>
